@@ -4,22 +4,31 @@
 // console.log("Function was invoked!");
 // };
 // myFunction();
+const myFunction=() => console.log("Function was invoked!")
+console.log("myFunction",myFunction())
 
 // let anotherFunction = function (param) {
 //   return param;
 // };
 // anotherFunction("Example");
 
+const anotherFunction = (param) => param
+console.log("anotherFunction", anotherFunction('Hello World'))
+
 // let add = function (param1, param2) {
 //   return param1 + param2;
 // };
 // add(1,2);
 
+const add = (param1, param2)=> param1+param2
+console.log("add",add(2,3))
+
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
 // };
 // subtract(1,2);
-
+const subtract = (param1,param2)=> param1-param2
+console.log("subtract", subtract(10,3))
 
 // Stretch
 
